@@ -3,7 +3,10 @@
 	border-style: solid;
 	border-width: 3 px ;	
 	font-style: oblique;
-	background-color: #00ff00;
+	background-color: rgba(0, 255, 0, 0.5);
+	position: fixed;
+	bottom: 15px; 
+	right: 15px;
 	
 
 }
@@ -13,6 +16,9 @@ nav {
 	border-style: solid;
 	border-width: 1 px ;	
 	background-color: #00ff90;
+	position: fixed;
+	top: 5px; 
+	left: 5px;
 
 
 }

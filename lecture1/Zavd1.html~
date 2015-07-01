@@ -4,6 +4,7 @@
  <head>
   <meta charset="utf-8">
     <title>Табличка множення</title>
+    <link rel="stylesheet" href="css/styles5.css" type="text/css">
  </head>
  
  <body>
@@ -26,6 +27,7 @@
 
 	</thead>
 
+	<tbody>
 	<tr>
 		
 		<th>1</th>
@@ -80,8 +82,11 @@
 		<td>25</td>
 
 	</tr>
+	</tbody>
 
    </table></div>
-
+<br><br><br><br><br><br><br><br><br><br>
+<br>
+<br>
  </body>
 </html>
