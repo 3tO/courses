@@ -1,0 +1,19 @@
+<!-- it works the same with all jquery version from 1.x to 2.x -->
+<script src="im_js_css/jquery-2.1.4.min.js"></script>
+<script src="im_js_css/jssor.slider.mini.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        var options = { $AutoPlay: true };
+        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+    });
+</script>
+
+<div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 400px;">
+    <!-- Slides Container -->
+    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 400px;">
+        <div><img u="image" src="im_js_css/image2.jpg" /></div>
+        <div><img u="image" src="im_js_css/image1.jpg" /></div>
+        <div><img u="image" src="im_js_css/image3.jpg" /></div>
+        <div><img u="image" src="im_js_css/image4.jpg" /></div>
+    </div>
+</div>

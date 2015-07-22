@@ -1,0 +1,38 @@
+
+.article-item {
+
+	border-style: solid; 
+	color: black;
+	border-width: 1 px ;	
+	border-radius: 50px 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background: linear-gradient(to top, #4965D6, #39AECF);
+	width:50%;
+	margin:0 auto;
+}
+
+.header {
+	width:50%;
+	margin:0 auto;
+	border:1px solid black;
+	background: linear-gradient(to top, #FFaE90, #39AECF);
+	background-color:#61B7CF;
+	border-radius: 10px;
+}
+
+.description, .info, h2 {
+
+	position: relative;
+	top: -10px;
+ 	left: 40px;
+}
+
+h1, #slider1_container {
+	width:50%;
+	margin:0 auto;
+}
+
+body {
+	background: linear-gradient(to top, #4965D6, #a446D7, #6F83D6);
+	
+}
