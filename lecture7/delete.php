@@ -1,7 +1,18 @@
 <?php
 
+$page_title = 'delete article';
 // Підключаємо файл до БД, адже потрібно вибрнати дані.
 require('base/db.php');
+require('base/header.php');
+
+if (!$editor) {
+  header('HTTP/1.1 403 Unauthorized');
+
+  print 'Доступ заборонено.';
+  // Підключаємо футер та припиняємо роботу скрипта.
+  require('base/footer.php');
+  exit;
+}
 
 try {
   $stmt = $conn->prepare('SELECT id, title, short_desc FROM content WHERE id = :id');

@@ -79,6 +79,10 @@ if (isset($_POST['submit'])) {
 <form action="<?php print $_SERVER["PHP_SELF"]; ?>" method="POST">
 
   <div class="field-item">
+    <label for="id">ID <?php print $article['id']; ?></label>
+  </div>
+
+  <div class="field-item">
     <label for="title">Заголовок</label>
     <input type="text" name="title" id="title" value="<?php print $article['title']; ?>" required maxlength="255">
   </div>
