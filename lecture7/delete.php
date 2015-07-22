@@ -69,3 +69,8 @@ try {
   <input  type="hidden" name="id" value="<?php print $article['id']; ?>" required>
 
 </form>
+
+<?php
+// Підключаємо футер сайту.
+require('base/footer.php');
+?>
